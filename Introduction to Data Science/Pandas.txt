@@ -1,0 +1,25 @@
+animals = ['Tiger', 'Bear', 'Moose']
+pd.Series(animals)  
+0    Tiger
+1     Bear
+2    Moose
+dtype: object
+
+numbers = [1, 2, 3]
+pd.Series(numbers)
+0    1
+1    2
+2    3
+dtype: int64
+
+numbers = [1, 2, None]
+pd.Series(numbers)
+0    1.0
+1    2.0
+2    NaN
+dtype: float64
+
+
+np.nan == None       //false
+np.nan == np.nan     //false
+np.isnan(np.nan)     //true

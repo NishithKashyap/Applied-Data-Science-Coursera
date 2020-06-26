@@ -1,0 +1,136 @@
+# Metadata for Credit and Charge Card Statistics
+---
+Identifier: '37f61fe1-1ad3-4d50-bf43-8d8539cd247b'
+Name: 'credit-and-charge-card-statistics'
+Title: 'Credit and Charge Card Statistics'
+Description:
+  - 'Credit and charge cards refer to any article, whether in physical or electronic
+    form, of a kind commonly known as a credit card or charge card or any similar
+    article intended for use in purchasing goods or services on credit, whether or
+    not the card is valid for immediate use.'
+  - ''
+  - 'Credit card rollover balance refers to the balance that incurs interest charges
+    in the event that the credit card charges are not settled by the payment due date.
+    The balance includes the minimum payment not settled by the due date and the rollover
+    balance after payment of the minimum sum.'
+  - ''
+  - 'For rollover balances and the number of main and supplementary cards, the figures
+    given are as of end of each month.'
+  - ''
+  - 'Note: Total billings, rollover balances and written-off bad debts are in S$ millions.
+    Charge-off rates are percentages.'
+Topics:
+  - 'Economy'
+  - 'Finance'
+Keywords:
+  - 'Banking'
+  - 'Cost of Living'
+  - 'Debt'
+  - 'Finance'
+  - 'Loans'
+Publisher:
+  Name: 'Monetary Authority of Singapore'
+  Admin 1:
+    Name: 'Eileen Cm Tan'
+    Department: 'MAS'
+    Email: 'Eileen_CM_TAN@mas.gov.sg'
+  Admin 2:
+    Name: 'Grace Thng'
+    Department: 'MAS'
+    Email: 'Grace_THNG@mas.gov.sg'
+Sources:
+  - 'Monetary Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '1989-01-01 to 2015-08-31'
+Last Updated: '2017-04-19T15:28:11.803109'
+Resources:
+  -
+    Identifier: 'aae7f304-f003-4c82-83e2-c0c05590f061'
+    Title: 'Credit and Charge Card Statistics, Annual'
+    Url: 'https://storage.data.gov.sg/credit-and-charge-card-statistics/resources/credit-and-charge-card-statistics-annual-2016-02-11T10-33-16Z.csv'
+    Format: 'CSV'
+    Coverage: '1989-01-01 to 2014-12-31'
+    Last Updated: '2016-02-11T10:33:16.097715'
+    Schema:
+      -
+        Name: 'year'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'cards_main'
+        Title: 'Cards - Main'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cards'
+      -
+        Name: 'cards_supplementary'
+        Title: 'Cards - Supplementary'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cards'
+      -
+        Name: 'total_billings'
+        Title: 'Total Billings'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'rollover_balance'
+        Title: 'Rollover Balance'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'bad_debts_written_off'
+        Title: 'Bad Debts Written Off'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'charge_off_rates'
+        Title: 'Charge Off Rates'
+        Type: 'numeric'
+        Sub Type: 'percentage'
+        Description: 'Percentages are expressed as a value over 100, i.e. "100" represents
+          100%'
+  -
+    Identifier: 'abb9c5b4-2d9f-4c97-bc19-b701dbb074d4'
+    Title: 'Credit and Charge Card Statistics, Monthly'
+    Url: 'https://storage.data.gov.sg/credit-and-charge-card-statistics/resources/credit-and-charge-card-statistics-monthly-2016-02-11T10-35-54Z.csv'
+    Format: 'CSV'
+    Coverage: '1991-01-01 to 2015-08-31'
+    Last Updated: '2016-02-11T10:35:54.162374'
+    Schema:
+      -
+        Name: 'month'
+        Title: 'Month'
+        Type: 'datetime'
+        Sub Type: 'month'
+        Format: 'YYYY-MM'
+      -
+        Name: 'cards_main'
+        Title: 'Cards - Main'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cards'
+      -
+        Name: 'cards_supplementary'
+        Title: 'Cards - Supplementary'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'No. of Cards'
+      -
+        Name: 'total_billings'
+        Title: 'Total Billings'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
+      -
+        Name: 'rollover_balance'
+        Title: 'Rollover Balance'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Million'
